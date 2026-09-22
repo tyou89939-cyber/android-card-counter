@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Card Counter</string>
+    <string name="subtitle">Screen-aware suit tracking for a single 52-card deck.</string>
+    <string name="button_overlay">Allow floating overlay</string>
+    <string name="button_start">Start screen capture</string>
+    <string name="button_running">Capture is running</string>
+    <string name="button_stop">Stop capture</string>
+    <string name="button_reset">Reset to 13 each</string>
+    <string name="overlay_ready">Overlay permission is ready.</string>
+    <string name="overlay_required">Allow the floating overlay before starting capture.</string>
+    <string name="status_stopped">Capture stopped.</string>
+    <string name="status_starting">Starting screen capture…</string>
+    <string name="status_running">Capture running. Watch the top bar.</string>
+    <string name="capture_denied">Screen capture permission was not granted.</string>
+    <string name="instructions">How it works\n\n1. Allow the floating overlay.\n2. Start screen capture and approve Android’s prompt.\n3. Keep the card suit glyph visible in the target game.\n4. Replace the starter templates in app/src/main/assets/templates with tight grayscale crops from that game for reliable matching.\n\nThe app only counts matches after two consistent frames and applies a short cooldown so one card is not counted repeatedly.</string>
+    <string name="notification_channel">Card counter capture</string>
+    <string name="notification_channel_description">Shows when screen capture is active.</string>
+    <string name="notification_title">Card counter is active</string>
+    <string name="notification_text">Analyzing the shared screen for suit glyphs.</string>
+</resources>
